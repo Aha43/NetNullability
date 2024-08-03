@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B7F1D130-3D6A-4798-8A1E-578814B71B4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLibNoNullability", "src\ExampleLibNoNullability\ExampleLibNoNullability.csproj", "{AA4BA6F4-8D71-4173-9A7F-E7F871FB3967}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,14 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA4BA6F4-8D71-4173-9A7F-E7F871FB3967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA4BA6F4-8D71-4173-9A7F-E7F871FB3967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA4BA6F4-8D71-4173-9A7F-E7F871FB3967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA4BA6F4-8D71-4173-9A7F-E7F871FB3967}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AA4BA6F4-8D71-4173-9A7F-E7F871FB3967} = {B7F1D130-3D6A-4798-8A1E-578814B71B4C}
 	EndGlobalSection
 EndGlobal
